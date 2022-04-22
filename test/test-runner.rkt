@@ -153,7 +153,7 @@
                 1)
   (check-equal? (run '(define (f x) x)
                      '(f 1 2 3))
-                2)
+                1)
   
   ;; Iniquity tests
   (check-equal? (run
